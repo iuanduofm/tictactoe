@@ -1,0 +1,62 @@
+{
+  "topic": "Complete history of Anita Porchet, Swiss watch enamellist",
+  "scope": "Biography, training, career, clients, techniques, awards, teaching and studio history of Anita Porchet, as documented in publicly accessible sources. Cutoff: 2026-11-26.",
+  "coverage_target": 0.80,
+  "coverage_status": "unverified: no independent second researcher, so no capture-recapture bound could be computed",
+  "claims": [
+    {"id":"c1","claim":"Born 15 January 1961 in La Chaux-de-Fonds, Switzerland","source":"https://en.wikipedia.org/wiki/Anita_Porchet","tier":"secondary","verified_by":"europastar (birthplace and 1961 year), watchonista (exact date)","status":"confirmed"},
+    {"id":"c2","claim":"Learned enamelling from her godfather, a watch engraver; grew up around his workshop","source":"https://www.gmtmag.com/en/lady-en-2/at-home-with-anita-porchet-daughter-of-fire.html","tier":"secondary","verified_by":"homofaber (godfather workshop), theweek (godfather, youth)","status":"confirmed"},
+    {"id":"c3","claim":"Attended the Ecole d'Arts Appliques in La Chaux-de-Fonds for a preparatory year, then the Lausanne art school from 1980","source":"https://www.watchonista.com/editorial/history/prix-gaia-2015-anita-porchet-categorie-artisanat-creation/","tier":"secondary","verified_by":"none (single source)","status":"single-source"},
+    {"id":"c4","claim":"Earned the federal engraving and enamelling certificate in 1984 (Haute Ecole Arc)","source":"https://www.europastar.com/the-watch-files/portraits/1004113605-the-multiple-talents-of-enamellist-anita-porchet.html","tier":"secondary","verified_by":"watchonista (1984 certificate); wikipedia","status":"confirmed"},
+    {"id":"c5","claim":"Completed a further artistic aptitude certificate at the Lausanne cantonal art school in 1985","source":"https://www.europastar.com/the-watch-files/portraits/1004113605-the-multiple-talents-of-enamellist-anita-porchet.html","tier":"secondary","verified_by":"none (single source)","status":"single-source"},
+    {"id":"c6","claim":"Learned from enamellists Elisabeth Juillerat and Suzanne Rohr; Wikipedia calls Rohr her apprenticeship master","source":"https://www.gmtmag.com/en/lady-en-2/at-home-with-anita-porchet-daughter-of-fire.html","tier":"secondary","verified_by":"wikipedia (Rohr), watchonista (Juillerat private tuition)","status":"confirmed"},
+    {"id":"c7","claim":"Taught crafts and enamelling at the School of Applied Arts in La Chaux-de-Fonds from 1985 to 1992","source":"https://www.watchonista.com/articles/history/prix-gaia-2015-anita-porchet-craftsmanship-creation","tier":"secondary","verified_by":"europastar ('six years teaching' in La Chaux-de-Fonds before going freelance); theweek ('taught in a school for six years')","status":"confirmed (duration corroborated; exact years from one source)"},
+    {"id":"c8","claim":"Teaching began in 2008","source":"https://www.homofaber.com/en/artisans/anita-porchet-dial-enamelling-switzerland","tier":"secondary","verified_by":"contradicted by c7 sources; Homo Faber page is also internally inconsistent ('taught for the past ten years')","status":"disputed - likely refers to later workshop teaching, not school teaching"},
+    {"id":"c9","claim":"Started her career in 1988","source":"https://www.homofaber.com/en/artisans/anita-porchet-dial-enamelling-switzerland","tier":"secondary","verified_by":"none; conflicts in spirit with c7 teaching start and c10 studio dates","status":"single-source"},
+    {"id":"c10","claim":"Opened her own studio in Lausanne in 1993","source":"https://robbreport.com.my/2018/02/25/behind-scenes-enamelist-anita-porchet/","tier":"secondary","verified_by":"wikipedia (1993 Lausanne studio); europastar (studio set up early 1990s)","status":"confirmed (year from two sources)"},
+    {"id":"c11","claim":"Homo Faber gives 1994 for the workshop opening","source":"https://www.homofaber.com/en/artisans/anita-porchet-dial-enamelling-switzerland","tier":"secondary","verified_by":"conflicts with c10 (1993)","status":"disputed - 1993 vs 1994 across sources; 1993 is better corroborated"},
+    {"id":"c12","claim":"Moved the studio to Corcelles-le-Jorat (Route de la Goille); had worked there for about 17 years as of 2016 to 2018 reporting","source":"https://www.watchonista.com/editorial/history/prix-gaia-2015-anita-porchet-categorie-artisanat-creation/","tier":"secondary","verified_by":"gmtmag/homofaber (current location); europastar (current location)","status":"confirmed for current location; move date approximately 2009 by inference"},
+    {"id":"c13","claim":"Very first watches she enamelled date to the mid-1990s; first dials made at Patek Philippe's request","source":"https://www.gmtmag.com/en/lady-en-2/at-home-with-anita-porchet-daughter-of-fire.html","tier":"secondary","verified_by":"search snippets (watchprosite, worldtempus)","status":"confirmed"},
+    {"id":"c14","claim":"Works for Patek Philippe since the early 1990s / 1995","source":"https://www.robbreport.com.my/2018/02/25/behind-scenes-enamelist-anita-porchet/","tier":"secondary","verified_by":"watchonista (since 1995)","status":"confirmed (approximate start year)"},
+    {"id":"c15","claim":"Clients include Patek Philippe, Vacheron Constantin, Piaget, Chanel, Hermes, Chaumet, Audemars Piguet, Jaquet Droz, Fabergé","source":"https://www.europastar.com/the-watch-files/portraits/1004113605-the-multiple-talents-of-enamellist-anita-porchet.html","tier":"secondary","verified_by":"watchonista; robb report; wikipedia; no official brand page confirmed","status":"confirmed by multiple media sources; brand primary sources not accessible"},
+    {"id":"c16","claim":"Techniques: cloisonne, champleve, paillonne, grisaille, miniature painting, plique-a-jour, Limoges","source":"https://www.gmtmag.com/en/lady-en-2/at-home-with-anita-porchet-daughter-of-fire.html","tier":"secondary","verified_by":"robbreport, homofaber","status":"confirmed"},
+    {"id":"c17","claim":"Dial enamel is crushed by hand in an agate mortar and fired at around 800 C for 30 to 90 seconds per firing","source":"https://www.gmtmag.com/en/lady-en-2/at-home-with-anita-porchet-daughter-of-fire.html","tier":"secondary","verified_by":"none (single source)","status":"single-source"},
+    {"id":"c18","claim":"A complex dial can take up to a year to finish; studio employs three apprentices","source":"https://robbreport.com.my/2018/02/25/behind-scenes-enamelist-anita-porchet/","tier":"secondary","verified_by":"europastar (apprentices, 'eight years' with team)","status":"confirmed for apprentices; year-long timeline single-source"},
+    {"id":"c19","claim":"Dawn on the Lake pocket watch made for Patek Philippe's 175th anniversary; miniature Palais Garnier ceiling for Vacheron Constantin","source":"https://www.quillandpad.com/2015/09/22/the-2015-gaia-awards-giulio-papi-anita-porchet-and-jonathan-betts-honored/","tier":"secondary","verified_by":"watchonista (Palais Garnier, Dawn on the Lake)","status":"confirmed"},
+    {"id":"c20","claim":"Won the 2015 Prix Gaia in the artisan-creation category, the first woman to do so","source":"https://quillandpad.com/2015/09/22/the-2015-gaia-awards-giulio-papi-anita-porchet-and-jonathan-betts-honored/","tier":"secondary","verified_by":"watchonista (Nov 20 2015); quill and pad ('a woman has finally won'); first-woman wording is inferred from 21 years of male winners, not stated outright","status":"confirmed award; 'first woman' is inferred"},
+    {"id":"c21","claim":"Shared the 2017 Grand Prix d'Horlogerie de Geneve Special Jury Prize with Suzanne Rohr","source":"https://www.gphg.org/en/prize-list-17","tier":"primary (official record)","verified_by":"europastar (bio)","status":"confirmed - official GPHG record"},
+    {"id":"c22","claim":"Received the Fondation de la Haute Horlogerie Hommage au Talent award and a Vaud cultural heritage prize","source":"https://www.europastar.com/the-watch-files/portraits/1004113605-the-multiple-talents-of-enamellist-anita-porchet.html","tier":"secondary","verified_by":"none (single source)","status":"single-source"},
+    {"id":"c23","claim":"Her work uses paillons from stock dating to the early nineteenth century","source":"https://www.europastar.com/the-watch-files/portraits/1004113605-the-multiple-talents-of-enamellist-anita-porchet.html","tier":"secondary","verified_by":"none (single source)","status":"single-source"},
+    {"id":"c24","claim":"Widely described as the best-known enamel artist working in watches","source":"https://www.homofaber.com/en/artisans/anita-porchet-dial-enamelling-switzerland","tier":"opinion","verified_by":"robbreport photo caption, worldtempus","status":"opinion - attributed, not factual"}
+  ],
+  "disputes": [
+    {"id":"d1","topic":"Teaching start","positions":["1985-1992 at La Chaux-de-Fonds school (watchonista, wikipedia; corroborated by europastar six years and theweek six years)","2008 (homofaber)"],"resolution":"Best supported: school teaching 1985-1992. The 2008 date likely refers to a later teaching role in her own workshop. Unresolved; the Homo Faber page is internally inconsistent."},
+    {"id":"d2","topic":"Workshop year","positions":["1993 Lausanne (robbreport, wikipedia)","1994 (homofaber)"],"resolution":"1993 preferred (two sources, one of them the more detailed); 1994 may refer to a different milestone."},
+    {"id":"d3","topic":"Wikipedia 1984 date used twice","positions":["Certificate in 1984 (confirmed by europastar and watchonista)","Patek Philippe prize in 1984 (wikipedia only)"],"resolution":"Certificate 1984 confirmed. The 1984 Patek Philippe prize is single-source and unverified."},
+    {"id":"d4","topic":"Chanel and Hermes collaboration dates","positions":["Chanel named as client (multiple)","Hermes (europastar captions, 2013 Coromandel piece)"],"resolution":"Clients confirmed by multiple sources; exact start years not established."}
+  ],
+  "unopened_or_blocked": [
+    {"url":"https://www.fhs.swiss/eng/2015_10_08_01_Prix_Gaia.html","status":"HTTP 404"},
+    {"url":"https://wwd.com/accessories-news/watches/anita-porchet-master-enamelist-interview-1237057367/","status":"HTTP 307 redirect to paywall gateway tollbit.wwd.com; not followed"},
+    {"url":"https://www.nytimes.com/2009/03/26/fashion/26iht-acawenam.html","status":"fetch tool refused the host"},
+    {"url":"https://web.archive.org/web/20210705071217/https://www.nytimes.com/2009/03/26/fashion/26iht-acawenam.html","status":"fetch tool refused the host"},
+    {"url":"https://www.homofaber.com/it/... (2022 page)","status":"HTTP 503 on two tries"},
+    {"url":"https://www.vacheron-constantin.com/us/en/search.html?q=Anita%20Porchet","status":"HTTP 403"}
+  ],
+  "source_families": {
+    "official_records_data": "included: GPHG 2017 official prize list (c21). Patek, Vacheron, Piaget searches found no credits. FHS press release 404. Gaia official pages not separately opened.",
+    "news_trade_reporting": "included: Watchonista (Nov 2015), Robb Report (Feb 2018), Quill and Pad (Sep 2015), EuropaStar (Jul 2023), GMT Magazine (Nov 2018), The Week (Oct 2015). WWD paywalled. Swiss Watches (2023) not opened.",
+    "scholarly_articles": "no searches yet",
+    "books_archives": "no searches yet (Musee International d'Horlogerie records not checked)",
+    "podcasts_radio": "no searches yet",
+    "video_talks": "no searches yet",
+    "message_boards_communities": "not searched; low value for a biography",
+    "topic_specific": "included: Homo Faber artisan page (2026), theweek, thenakedwatchmaker (no years), NYT 2009 blocked"
+  },
+  "limitations": [
+    "No second independent researcher, so coverage cannot be quantified and no capture-recapture bound is available.",
+    "Scripted checker from the packet was not run; ledger maintained by hand.",
+    "Heavy reliance on secondary media; the most important primary-type sources (brand archives, MIH museum records, the 2009 NYT profile) were blocked or not accessible.",
+    "Podcast, video, scholarly and archive families not yet searched."
+  ]
+}
