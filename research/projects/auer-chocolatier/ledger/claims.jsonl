@@ -27,3 +27,6 @@
 {"id":"C15","claim":"Henri Auer created the Pavé genevois in 1940.","status":"NOT SUPPORTED: geneve.com credits 1936 Rangel/Stankovitch and Rohr; only a blocked Fodor's snippet credits Auer","confidence":"low"}
 {"id":"C16","claim":"Amandes Princesses created 1964 by Claude Auer.","status":"single secondary source; company page not reached","confidence":"low"}
 {"id":"C17","claim":"Henri Auer was from the Grisons and opened shops in Toulon.","status":"NOT SUPPORTED: company page says only 'suisse'; no Toulon record","confidence":"low"}
+{"id":"C14","update":"round 10","status":"Thierry as 5th-gen head: 2013 dated review says 'in charge'; company page dates his role to 1989; owner's 2005 still unsupported; not contradicted by a 2013 source","confidence":"low"}
+{"id":"C15","update":"round 10","status":"Pavé genevois origin: MySwitzerland says 1930s, creator unnamed; Auer 1940 credit remains unsupported","confidence":"low"}
+{"id":"C18","claim":"Dolfi family took over Maison Auer in 2024.","status":"no press or register confirmation after 3 press searches; blog and company self-description only","confidence":"low-moderate"}
