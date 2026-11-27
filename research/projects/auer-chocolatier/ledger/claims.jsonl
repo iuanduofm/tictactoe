@@ -16,3 +16,7 @@
 {"id":"C11","update":"round 4","status":"downgraded to company-self-description only; no independent press or register confirmation found","confidence":"low-moderate"}
 {"id":"C6","update":"round 4","status":"no pre-1939 source links Henri Auer to Geneva; relation still unverified","confidence":"low"}
 {"id":"C11","update":"round 5","status":"no BODACC notice confirms the 2024 Dolfi takeover; remains company self-description plus one blog","confidence":"low-moderate"}
+{"id":"C6","update":"round 7 (owner statement)","status":"owner states same family; to verify independently","confidence":"owner-provided"}
+{"id":"C12","claim":"Geneva shop opened on Rue de Rive on 29 November 1939 by Henri Auer, great-grandson of Nice founder.","supporting":["S-OWNER-1"],"conflicting":["1935 business listing (S-level snippet)"],"status":"owner-provided; check against primary newspaper or register","confidence":"owner-provided"}
+{"id":"C13","claim":"Nice shop founded 1820 by Henri Auer, Swiss confectioner from the Grisons.","supporting":["S-OWNER-1","S16 (1820, Swiss confectioner)","S10 (Grisons origin, blog)"],"conflicting":[],"status":"three sources agree on 1820 and Swiss origin; Grisons origin only blog and owner","confidence":"moderate"}
+{"id":"C14","claim":"Thierry Auer ran the Nice shop as of 2005.","supporting":["S-OWNER-1"],"conflicting":["blog timeline gives Thierry 1989 (internal inconsistency)"],"status":"owner-provided; verify","confidence":"owner-provided"}
