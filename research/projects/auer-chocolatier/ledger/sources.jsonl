@@ -35,3 +35,4 @@
 {"id":"S34","entity":"Auer, Vienna","link":"https://www.advantageaustria.org/cn/company/en/auer-gmbh-2","status":"BLOCKED: 503 again; secondary summary describes a different page; 1920 unverified","attempt":"auer-vie-3"}
 {"id":"S35","entity":"Pavé genevois","link":"https://uk.news.yahoo.com/sweet-chocolate-confectionary-tour-geneva-095413412.html","creator":"Joanna Whitehead, 2022-06-17","status":"unnamed acquaintance: Stettler 'did it first'; no date or creator stated","attempt":"auer-r11-1a"}
 {"id":"S36","entity":"Auer, Geneva","link":"https://indagare.com/shop/auer-chocolatier-sa","status":"no founding or family statement; no 1939","attempt":"auer-r11-1b"}
+{"id":"S37","entity":"Pavé genevois","link":"https://www.geneve.com/en/eat-drink/geneva-chocolate/what-makes-genevas-chocolate-so-special","status":"origin 1936: Stankovitch at Confiserie Rangel, recipe passed to Hans Rohr who began same year (summary fetch)","attempt":"auer-r12-1"}

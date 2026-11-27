@@ -31,3 +31,4 @@
 {"id":"C15","update":"round 10","status":"Pavé genevois origin: MySwitzerland says 1930s, creator unnamed; Auer 1940 credit remains unsupported","confidence":"low"}
 {"id":"C18","claim":"Dolfi family took over Maison Auer in 2024.","status":"no press or register confirmation after 3 press searches; blog and company self-description only","confidence":"low-moderate"}
 {"id":"C15","update":"round 11","status":"Pavé origin contested: 1930s (MySwitzerland), 1936 Rangel/Stankovitch (geneve.com), Stettler claimed by an unnamed acquaintance (Yahoo 2022), Rohr (geneve.com). No source supports Auer as creator.","confidence":"low"}
+{"id":"C15","update":"round 12","status":"Pavé origin best supported as 1936 (Rangel/Stankovitch, then Rohr), single tourism source; Auer not a creator in any source","confidence":"moderate for Rangel/Rohr, low for date"}
