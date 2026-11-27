@@ -49,18 +49,39 @@ research/projects/<name>/
 - **Model IDs.** Agents use the aliases `haiku`, `sonnet` and `opus`, which resolve to the current Claude 5 family (claude-haiku-5-5, claude-sonnet-5-5, claude-opus-5-5). Pin exact IDs in the frontmatter if you need reproducible runs.
 - **Schedule.** The guide's 15-minute cadence works only where the host can run recurring tasks. Verify the first scheduled run actually fires before relying on it.
 
-## Run-until rule (overrides any earlier stop habit)
+## Run-until rule (binding; overrides any earlier stop habit)
 
-A run continues until one of two things happens:
-1. **Coverage target reached.** Coverage is at or above the brief's target (default **80%**) on a fixed denominator, *and* every original completion gate has an independent review decision.
-2. **The user stops the run.**
+A run is not finished while any of these is true. Keep working; do not end the turn.
 
-Nothing else halts a run. Specifically:
-- **A blocked lead is not a stop.** Mark it blocked with its retry condition, then rotate to the next ready item.
-- **An empty ready queue is not a stop.** Generate new queue items from the coverage analyst's `escaped` list, the open conflicts in `claims.jsonl`, and the brief's unanswered questions. Dispatch them.
-- **A failed or unreachable source is not a stop.** Record the attempt, switch lanes, and continue.
-- **Waiting for input is not a stop.** Ask the owner one question in the owner update, then keep working on everything that does not depend on the answer.
+1. **The ready queue is non-empty.** Run the next ready item. Blocked items do not count as work, but they do not stop the run.
+2. **The queue is empty.** Generate new items before doing anything else. Sources, in order:
+   - every `open` or `conflict` claim in `claims.jsonl` (one item per conflict, with the source that would settle it);
+   - every unanswered question in the brief;
+   - the coverage analyst's `escaped` list and `next_dispatch`;
+   - every claim in the current draft that has only one source;
+   - every entity, product, person or place the sources mention that the brief covers but the ledger doesn't.
+3. **New items are empty too.** The scope has been surveyed. Then report coverage as `unknown` (open-ended) or a number (fixed), and keep working through the lowest-coverage source family.
 
-**Open-ended scope:** when the denominator cannot be bounded, coverage is reported as `unknown`, so the 80% target can never be met. In that case the run continues until the user stops it. Each owner update must say so and state the next runnable work.
+The run ends only when:
+- coverage reaches the brief's target (default 80%) on a fixed denominator, with an independent review decision on every gate; or
+- the user stops it.
 
-**Before ending any turn:** check the queue. If a `ready` item exists, run it. A turn may end only when the run-until rule has been satisfied or the user has stopped the run.
+### Things that are NOT reasons to end a turn
+- A blocked source, a 403, a 503, a DNS failure or a missing archive. Log it with its retry condition and switch lanes.
+- Waiting for the owner. Ask the question in the owner update, then keep working on everything that does not depend on the answer.
+- Conflicting sources. Keep both and queue a check.
+- Owner-provided facts. Record them as `owner-provided`, then queue a check for each. Do not treat them as verified.
+- Having a draft. A draft is a checkpoint, not a finish.
+- Having hit a wall on one task. Rotate.
+
+### Before ending any turn (mandatory self-check)
+Answer each question in the checkpoint file. If any answer is "yes" to a question that has an action, do that action instead of ending.
+- Is there a `ready` queue item?
+- Is there an `open` or `conflict` claim without a queued check?
+- Is there a brief question with no answer and no queued check?
+- Was an owner-provided fact left unqueued?
+
+If all answers are "no", the run is at the frontier. Say so in one line, state the coverage, and end only if the frontier is real (the new-items step produced nothing).
+
+### Open-ended scope
+Coverage cannot reach 80% without a bounded denominator. The run therefore continues until the user stops it, unless the new-items step is empty. Each owner update must state the coverage as `unknown`, name the lowest-covered source family, and state the next runnable work.

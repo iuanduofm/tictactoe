@@ -23,3 +23,7 @@
 {"id":"C12","update":"round 8","status":"NOT SUPPORTED: no source for 29 Nov 1939; tourism says 1939 only; 29 Nov matches a 2019 article date. Keep as 1939 (year only) until a dated source is found.","confidence":"low"}
 {"id":"C13","update":"round 8","status":"1820 and Swiss origin supported; Grisons origin unsupported; move-to-Nice date conflicts (1820 vs mid-19th century)","confidence":"moderate"}
 {"id":"C14","update":"round 8","status":"CONFLICT: owner says 2005; blog says 1989; no source for 2005","confidence":"low"}
+{"id":"C14","update":"round 9","status":"CONFLICT: company's own page dates Thierry Auer's role to 1989; owner says 2005; no source for 2005","confidence":"low"}
+{"id":"C15","claim":"Henri Auer created the Pavé genevois in 1940.","status":"NOT SUPPORTED: geneve.com credits 1936 Rangel/Stankovitch and Rohr; only a blocked Fodor's snippet credits Auer","confidence":"low"}
+{"id":"C16","claim":"Amandes Princesses created 1964 by Claude Auer.","status":"single secondary source; company page not reached","confidence":"low"}
+{"id":"C17","claim":"Henri Auer was from the Grisons and opened shops in Toulon.","status":"NOT SUPPORTED: company page says only 'suisse'; no Toulon record","confidence":"low"}
