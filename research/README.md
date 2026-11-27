@@ -48,3 +48,19 @@ research/projects/<name>/
 - **Verifier independence.** The verifier is a separate agent, but it runs on the same model family as the coordinator's team. For high-stakes claims, the brief can require a verifier from a different source family, which the coordinator enforces through the lane rules.
 - **Model IDs.** Agents use the aliases `haiku`, `sonnet` and `opus`, which resolve to the current Claude 5 family (claude-haiku-5-5, claude-sonnet-5-5, claude-opus-5-5). Pin exact IDs in the frontmatter if you need reproducible runs.
 - **Schedule.** The guide's 15-minute cadence works only where the host can run recurring tasks. Verify the first scheduled run actually fires before relying on it.
+
+## Run-until rule (overrides any earlier stop habit)
+
+A run continues until one of two things happens:
+1. **Coverage target reached.** Coverage is at or above the brief's target (default **80%**) on a fixed denominator, *and* every original completion gate has an independent review decision.
+2. **The user stops the run.**
+
+Nothing else halts a run. Specifically:
+- **A blocked lead is not a stop.** Mark it blocked with its retry condition, then rotate to the next ready item.
+- **An empty ready queue is not a stop.** Generate new queue items from the coverage analyst's `escaped` list, the open conflicts in `claims.jsonl`, and the brief's unanswered questions. Dispatch them.
+- **A failed or unreachable source is not a stop.** Record the attempt, switch lanes, and continue.
+- **Waiting for input is not a stop.** Ask the owner one question in the owner update, then keep working on everything that does not depend on the answer.
+
+**Open-ended scope:** when the denominator cannot be bounded, coverage is reported as `unknown`, so the 80% target can never be met. In that case the run continues until the user stops it. Each owner update must say so and state the next runnable work.
+
+**Before ending any turn:** check the queue. If a `ready` item exists, run it. A turn may end only when the run-until rule has been satisfied or the user has stopped the run.

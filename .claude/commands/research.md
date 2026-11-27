@@ -38,7 +38,7 @@ You are the only writer of the master files. Before every save, re-read the mast
 ## 5. Coverage and completion
 - Compute coverage only against a denominator fixed in the brief. Use the method (complete list, probability sample or open-ended scope) the brief names. If the denominator cannot be bounded, report coverage as unknown and keep researching.
 - Completion requires every original gate to show evidence and a review decision. Label the result `open`, `suspended` or `independently certified`. Never mark `certified` yourself.
-- Continue evidence work while any gate is open or below target. Stop only on an owner instruction, an agreed limit, or a genuine inability to act.
+- Follow the run-until rule in research/README.md. Continue while coverage is below the target (default 80% on a fixed denominator) or any gate is open. Stop only when the target is met with independent review, or the user stops the run. Blocked leads, empty queues and unreachable sources are not stops: generate or rotate to new ready work.
 
 ## 6. Owner update
 After each scheduled interval and each material change, output exactly:
