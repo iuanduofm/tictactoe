@@ -13,3 +13,5 @@
 {"id":"C2","update":"round 2","status":"five generations: supported by S14 and S1/S2; likely shared upstream; unverified","confidence":"low-moderate"}
 {"id":"C6","update":"round 3","status":"identity: Nice business's own history says founder Henri Auer was a Swiss confectioner who founded Maison Auer in Nice in 1820. Geneva shop (1939) is not mentioned there. Still no evidence Geneva and Nice are the same firm; the Swiss-origin founder is the link to test.","confidence":"low"}
 {"id":"C11","claim":"Maison Auer (Nice) was taken over by the Dolfi family in 2024.","supporting":["S16 (company self-description)","S4 (blog)"],"conflicting":["S3 (tourism page) names Dolfi family as guardians, no date"],"status":"supported by company self-description; independent confirmation pending","confidence":"moderate"}
+{"id":"C11","update":"round 4","status":"downgraded to company-self-description only; no independent press or register confirmation found","confidence":"low-moderate"}
+{"id":"C6","update":"round 4","status":"no pre-1939 source links Henri Auer to Geneva; relation still unverified","confidence":"low"}
