@@ -15,3 +15,4 @@
 {"id":"C11","claim":"Maison Auer (Nice) was taken over by the Dolfi family in 2024.","supporting":["S16 (company self-description)","S4 (blog)"],"conflicting":["S3 (tourism page) names Dolfi family as guardians, no date"],"status":"supported by company self-description; independent confirmation pending","confidence":"moderate"}
 {"id":"C11","update":"round 4","status":"downgraded to company-self-description only; no independent press or register confirmation found","confidence":"low-moderate"}
 {"id":"C6","update":"round 4","status":"no pre-1939 source links Henri Auer to Geneva; relation still unverified","confidence":"low"}
+{"id":"C11","update":"round 5","status":"no BODACC notice confirms the 2024 Dolfi takeover; remains company self-description plus one blog","confidence":"low-moderate"}
